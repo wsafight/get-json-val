@@ -1,7 +1,7 @@
 {
-  "name": "tool-name",
+  "name": "get-json-val",
   "author": "wsafight",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -27,21 +27,24 @@
       "pre-commit": "dts lint"
     }
   },
-  "keywords": [],
+  "keywords": [
+    "JSON",
+    "isJSON"
+  ],
   "prettier": {
     "printWidth": 80,
     "semi": false,
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "module": "dist/tool-name.esm.js",
+  "module": "dist/get-json-val.esm.js",
   "size-limit": [
     {
-      "path": "dist/tool-name.cjs.production.min.js",
+      "path": "dist/get-json-val.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/tool-name.esm.js",
+      "path": "dist/get-json-val.esm.js",
       "limit": "10 KB"
     }
   ],

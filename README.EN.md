@@ -1,29 +1,26 @@
 # get-json-val
 
-Read this in other languages:
-[English](https://github.com/wsafight/get-json-val/blob/main/README.EN.md)
+At the same time, it is a function to judge whether it is a JSON string and the result of parsing the JSON string.
 
-同时判断是否是 JSON 字符串以及解析 JSON 字符串的结果的函数。
-
-## 安装
+## Install
 
 ```bash
 npm install get-json-val
 ```
 
-或者
+or
 
 ```bash
 yarn install get-json-val
 ```
 
-## 用法
+## Usage
 
-### 参数
+### parameter
 
-| 参数                 | 说明                 | 类型                 | 默认值                      |
+| parameter                 | desc                 | type                 | default                      |
 | :----------------- | :----------------- | :----------------- | :----------------------- |
-| val       |   JSON 字符串    | string | -                        |
+| val       |   JSON string    | string | -                        |
 
 ```ts
 import { getJSONVal } from 'get-json-val'
@@ -41,7 +38,7 @@ getJSONVal('{"a":1}')
 // [null, { a: 1 }]
 ```
 
-## 升级日志
-- 0.0.2 完成基本功能
+## Changelog
+- 0.0.2 Complete basic functions
 
 
