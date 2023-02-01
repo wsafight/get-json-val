@@ -14,9 +14,6 @@ const getJSONVal = (val: string): [Error | null, any] => {
   return [error, result]
 }
 
-
-export {
-  getJSONVal
-}
+export { getJSONVal }
 
 export default getJSONVal
